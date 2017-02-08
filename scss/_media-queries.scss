@@ -4,7 +4,9 @@
    .page {
        display: block;
     }
-    
+    article {
+        padding: 1em;
+    }
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {
@@ -28,6 +30,9 @@
         width: 50%;
     }
     
+    section {
+        padding: 2em;
+    }
   /* Diagnostic Styling. Delete When Done. */
   body:before {
        background: yellow;
@@ -38,12 +43,19 @@
 
 /* Desktop: 1280px = 80em */
 @media screen and (min-width: 80em) { 
-      
+  
+    header h1 {
+        display: none;
+    }
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {
        background: yellow;
        content: "Desktop Size";
   }
-
+    section {
+        width: 80%;
+        padding-top: 0;
+        
+    }
 }
