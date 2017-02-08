@@ -47,15 +47,18 @@
     header h1 {
         display: none;
     }
+    article h1 {
+        display: block;
+    }
+      section {
+        width: 80%;
+        padding-top: 0; 
+    }
     
   /* Diagnostic Styling. Delete When Done. */
   body:before {
        background: yellow;
        content: "Desktop Size";
   }
-    section {
-        width: 80%;
-        padding-top: 0;
-        
-    }
+  
 }
