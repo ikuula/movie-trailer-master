@@ -13,7 +13,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 /* line 12, /Users/isaackuula/Downloads/movie-trailer-master/scss/player.scss */
 .mejs__container {
   position: relative;
-  background: #000;
+  background: transparent;
   font-family: "Helvetica", Arial, serif;
   text-align: left;
   vertical-align: top;
@@ -58,7 +58,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   height: 100%;
   margin: 0;
   padding: 0;
-  background: red;
+  background: transparent;
   overflow: hidden; }
 
 /* line 63, /Users/isaackuula/Downloads/movie-trailer-master/scss/player.scss */
