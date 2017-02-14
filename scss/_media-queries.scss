@@ -8,55 +8,66 @@
 //       padding-top: 2em;
 //    }
     
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Mobile Size";
-  }
-    section {
-        margin-top: 4em
-    }
-    
-    
+//  /* Diagnostic Styling. Delete When Done. */
+//  body:before {
+//       background: yellow;
+//       content: "Mobile Size";
+//  }
+      
 }
+
 
 /* Tablet:  768px = 160em */
 @media screen and (min-width: 48em)  {
-    
+    img.hero {
+        max-width: 80%;
+//        margin: 0 auto;
+        display: flex;
+          align-items: center;  
+    }   
     main {
-        padding: 2em;
+        padding: 0;
         display: flex;
         justify-content: space-between;
+    }
+    p {
+        padding-left: 20%;
     }
     
     main article,
     main aside {
         width: 50%;
-    }
+    }  
+
     
     section {
-//        padding: 2em;
-    }
-    video {
-        max-width: 90%;
+        max-width: 80%;
         margin: 0 auto;
     }
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Tablet Size";
-  }
+   
+//  /* Diagnostic Styling. Delete When Done. */
+//  body:before {
+//       background: yellow;
+//       content: "Tablet Size";
+//  }
 
 }
 
 /* Desktop: 1280px = 80em */
 @media screen and (min-width: 80em) { 
   
-    article h1 {
-        display: block;
+    h1 {
+        width: 73%;  
+        max-width: 1280px;
     }
+    p {
+        padding-left: 30%;
+    }
+    
+    img.hero,
       section {
-        width: 80%;
+        width: 70%;  
+        max-width: 1280px;
         padding-top: 0; 
         margin: 0 auto;
     }

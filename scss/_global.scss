@@ -8,7 +8,7 @@ $tertiary-color: #f3ec08;
 //Typography
 body {
     font-family: futura;
-}
+}  
 article {
     position: relative;
     top: -4px;
@@ -19,9 +19,7 @@ p {
     padding: 5em 10%;
     line-height: 1.4;
 }
-article p::first-word {
-    color: red;
-} 
+
 // Lettering
 .char1,
 .char2,
@@ -118,11 +116,15 @@ h1 {
 }
 
 //Hero Image
-img {
+img.hero {
     width: 100%;
     margin: 0 auto;   
 }
-
+img.name {
+    position: relative;
+    top: 1em;
+    width: 25%;
+}
 //Tagline
 .taglinebox {
     padding: 0 0 5em;
