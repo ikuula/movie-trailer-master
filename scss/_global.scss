@@ -9,12 +9,19 @@ $tertiary-color: #f3ec08;
 body {
     font-family: futura;
 }
-
+article {
+    position: relative;
+    top: -4px;
+}
 p {
     background: white;
     margin: 0;
-    padding: 1em; 
+    padding: 5em 10%;
+    line-height: 1.4;
 }
+article p::first-word {
+    color: red;
+} 
 // Lettering
 .char1,
 .char2,
@@ -132,13 +139,12 @@ h3 {
     margin: 0 auto;
     padding: 1em 0 2em 0;
     font-size: 1em;
+    flex-grow: 2;
 }
 
 
 // Hide for Mobile and Tablet
-article h1 {
-    display: none;
-}
+
 
 // Video Player Styling
 section {
@@ -152,8 +158,26 @@ video {
     width: 100%;
 }
 .mejs__time-total {
-    background: #f3ec08;
+    background: $secondary-color;
+    height: 5px;
 }
+
+//Aside 
+aside {
+   background: $primary-color;
+    box-shadow:  0px 0px 100px 20px white;
+    position: relative;
+    top: -4px;
+}
+// Footer
+footer {
+    position: relative;
+    top: 3em;  
+}
+
+
+
+
 
 // background container and moving background setup
 .container{
