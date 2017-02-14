@@ -3,37 +3,137 @@
 // Color Palette
 $primary-color: #bf0000;
 $secondary-color: #f6acbe;
+$tertiary-color: #f3ec08;
 
 //Typography
 body {
     font-family: futura;
 }
-h1 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 50px;
-    color: $primary-color;
-    text-transform: uppercase;
-    text-align: center;
-    background: white;
-    padding: 2em 1em;
-    margin: 0;
-    position: relative;
-    display: block;
-    top: -4px;
-    
-}
+
 p {
     background: white;
     margin: 0;
-    padding: 1em;
+    padding: 1em; 
 }
+// Lettering
+.char1,
+.char2,
+.char3,
+.char4, 
+.char6,
+.char7,
+.char8,
+.char9,
+.char10,
+.char11,
+.char12 {
+    color: black;
+    position:relative;
+    left: .5em;
+}
+.char6,
+.char7,
+.char8,
+.char9,
+.char10,
+.char11,
+.char12 {
+    font-size: 40%;
+}
+.char6,
+.char7,
+.char8 {
+    position:relative;
+    top: -1em;
+    left: .95em;
+}
+.char9,
+.char10,
+.char11,
+.char12 {
+    position:relative;
+    left: -.9em;
+    font-size: 45%;
+    
+}
+.char14, 
+.char16,
+.char15,
+.char17,
+.char18,
+.char19,
+.char20,
+.char21,
+.char22 {
+    position:relative;
+    right: .5em;
+}
+.char19,
+.char20,
+.char21,
+.char22 {
+   right: .6em; 
+}
+
+
+
+
+
+
+
+
+
+//Header
+header {
+padding: 1.5em 0;
+    top: -4px;
+    background: white;
+    position:fixed;
+    width: 100%;
+    top: 2em;
+    display: block;
+    box-shadow: 0px 0px 90px white;
+}
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: $primary-color;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0; 
+}
+
+// Body
+.body {
+    position: relative;
+    top: 4em;
+}
+
 //Hero Image
 img {
     width: 100%;
-    position: relative;
-    top: 0;
-     
+    margin: 0 auto;   
 }
+
+//Tagline
+.taglinebox {
+    padding: 0 0 5em;
+    top: -4px;
+    background: $tertiary-color;
+    display: block;
+    position: relative;
+    box-shadow: 0px -20px 120px white;
+}
+h3 {
+   
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em 0 2em 0;
+    font-size: 1em;
+}
+
 
 // Hide for Mobile and Tablet
 article h1 {
@@ -41,6 +141,12 @@ article h1 {
 }
 
 // Video Player Styling
+section {
+    position: relative;
+   top: -4px;
+    background: $tertiary-color;
+    box-shadow: 0px 0px 120px white;
+}
 video {
     max-width: 100%;
     width: 100%;
