@@ -6,11 +6,34 @@ $secondary-color: #f6acbe;
 
 //Typography
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: futura;
 }
 h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: $primary-color;
     text-transform: uppercase;
+    text-align: center;
+    background: white;
+    padding: 2em 1em;
+    margin: 0;
+    position: relative;
+    display: block;
+    top: -4px;
+    
 }
+p {
+    background: white;
+    margin: 0;
+    padding: 1em;
+}
+//Hero Image
+img {
+    width: 100%;
+    position: relative;
+    top: 0;
+    
+}
+
 // Hide for Mobile and Tablet
 article h1 {
     display: none;
@@ -25,14 +48,16 @@ video {
     background: #f3ec08;
 }
 
+// background container and moving background setup
 .container{
   position:fixed;
+  z-index: -1;
   background-image:url("/img/backgroundPattern.png");
-  -webkit-animation:100s scroll infinite linear;
-  -moz-animation:100s scroll infinite linear;
-  -o-animation:100s scroll infinite linear;
-  -ms-animation:100s scroll infinite linear;
-  animation:100s scroll infinite linear;
+  -webkit-animation:200s scroll infinite linear;
+  -moz-animation:200s scroll infinite linear;
+  -o-animation:200s scroll infinite linear;
+  -ms-animation:200s scroll infinite linear;
+  animation:200s scroll infinite linear;
   top:0;
   left:0;
   width:100%;
