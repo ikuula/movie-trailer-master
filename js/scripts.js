@@ -1,5 +1,6 @@
 // FitText
-$('h1').fitText(1.2);
+$('h1').fitText(1);
+
 // Lettering
 $('h1').lettering();
 
