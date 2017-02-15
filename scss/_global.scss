@@ -121,16 +121,10 @@ img.hero {
     margin: 0 auto;   
 }
 img.name {
-    position: absolute;
-    top: 0;
-    padding: 20% 0 0 15%;
+    position: relative;
+    top: 1em;
     width: 25%;
-    z-index: -1;
 }
-//img.name:hover {
-//    transform: rotate(7deg);
-//    transition: .1s ease;
-//}
 //Tagline
 .taglinebox {
     padding: 0 0 5em;
