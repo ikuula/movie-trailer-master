@@ -3,32 +3,22 @@
 
    .page {
        display: block;
-    }
-//    article {
-//       padding-top: 2em;
-//    }
-    
-//  /* Diagnostic Styling. Delete When Done. */
-//  body:before {
-//       background: yellow;
-//       content: "Mobile Size";
-//  }
-      
+    }     
 }
 
 
 /* Tablet:  768px = 160em */
 @media screen and (min-width: 48em)  {
+    
     img.hero {
         max-width: 80%;
-//        margin: 0 auto;
         display: flex;
-          align-items: center;  
+        align-items: center;  
     }  
     img.name {
         padding: 16% 0 0 20%;
-    width: 20%;
-    }  
+        width: 20%;
+    }   
     main {
         padding: 0;
         display: flex;
@@ -43,18 +33,10 @@
         width: 50%;
     }  
 
-    
     section {
         max-width: 80%;
         margin: 0 auto;
     }
-   
-//  /* Diagnostic Styling. Delete When Done. */
-//  body:before {
-//       background: yellow;
-//       content: "Tablet Size";
-//  }
-
 }
 
 /* Desktop: 1280px = 80em */
@@ -79,10 +61,4 @@
         padding: 12% 0 0 22%;
     width: 20%;
     }
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Desktop Size";
-  }
-  
 }
