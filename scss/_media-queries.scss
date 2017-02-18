@@ -6,7 +6,6 @@
     }     
 }
 
-
 /* Tablet:  768px = 160em */
 @media screen and (min-width: 48em)  {
     
@@ -18,6 +17,7 @@
     img.name {
         padding: 16% 0 0 20%;
         width: 20%;
+		position: absolute;
     }   
     main {
         padding: 0;
@@ -27,12 +27,10 @@
     p {
         padding-left: 20%;
     }
-    
     main article,
     main aside {
         width: 50%;
     }  
-
     section {
         max-width: 80%;
         margin: 0 auto;
@@ -49,7 +47,6 @@
     p {
         padding-left: 30%;
     } 
-    
     img.hero,
       section {
         width: 70%;  
