@@ -28,8 +28,7 @@
 	main {
         display: flex;
         justify-content: space-between;
-    }
-    
+	}
 	article {
 		padding-right: 2.5%;
 	}
@@ -44,11 +43,9 @@
 
 /* Desktop: 1280px = 80em */
 @media screen and (min-width: 80em) { 
-  
-    h1 {
+h1 {
         width: 73%;  
-        max-width: 1280px;
-    }
+        max-width: 1280px;}
   h3 {
 		font-size: 200%;
 	}
