@@ -127,12 +127,13 @@ img.name {
 .taglinebox {
     padding: 0;
     top: -4px;
-    background: $tertiary-color;
+    background: green;
     display: block;
     position: relative;
     box-shadow: 0px -20px 120px white;
 }
 h3 {
+	text-transform: uppercase;
     text-align: center;
     width: 90%;
     margin: 0 auto;
