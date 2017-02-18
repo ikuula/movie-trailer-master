@@ -87,7 +87,7 @@ article p::first-letter  {
 }
 //Header
 header {
-padding: 1.5em 0;
+padding: 1em 0;
     top: -4px;
     background: white;
     position:fixed;
@@ -125,7 +125,7 @@ img.name {
 
 //Tagline
 .taglinebox {
-    padding: 0 0 5em;
+    padding: 0;
     top: -4px;
     background: $tertiary-color;
     display: block;
@@ -136,9 +136,19 @@ h3 {
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    padding: 1em 0 2em 0;
-    font-size: 1em;
+    padding: .5em 0 .5em 0;
+    font-size: 125%;
+	transition: .5s ease;
 }
+h3:nth-child(2),
+h3:nth-child(5)
+ {
+padding: 0;
+	position: relative;
+	top: -.5em;
+}
+
+
 // Video Player Styling
 section {
     position: relative;
