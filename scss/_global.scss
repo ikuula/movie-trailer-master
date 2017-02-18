@@ -6,17 +6,27 @@ $tertiary-color: #f3ec08;
 //Typography
 body {
     font-family: futura;
+	background: $secondary-color;
 	background-image: url('/img/backgroundPattern.png');
 }
-article {
-    position: relative;
-    top: -4px;
+main {
+	position: relative;
+	top: -4px;
 }
-p {
+
+aside,
+article {
     background: white;
     margin: 0;
-    padding: 1em;
+    padding:5% 10%;
 }
+article p::first-letter  {
+  float: left;
+  font-size: 400%;
+  margin: -.5em .1em -.2em 0;
+	color: $primary-color;
+}
+
 // Lettering
 .char1,
 .char2,
@@ -112,6 +122,7 @@ img.name {
 	padding: 20% 0 0 14%;
 	z-index: -1;
 }
+
 //Tagline
 .taglinebox {
     padding: 0 0 5em;
@@ -127,10 +138,6 @@ h3 {
     margin: 0 auto;
     padding: 1em 0 2em 0;
     font-size: 1em;
-}
-// Hide for Mobile and Tablet
-article h1 {
-    display: none;
 }
 // Video Player Styling
 section {
